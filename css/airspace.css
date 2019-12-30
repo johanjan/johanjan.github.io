@@ -254,6 +254,8 @@ font header .navbar-default .navbar-nav li a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   padding: 100px 0;
+  opacity: 0.5;
+
 }
 #feature h2 {
   font-size: 28px;
