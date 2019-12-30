@@ -233,7 +233,7 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Feature Start
 --*/
-#feature:after {
+#feature {
   background: url("../img/feature-bg.jpg");
   background-position: 50% 94px;
   width: 100%;
