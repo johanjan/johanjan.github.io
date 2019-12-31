@@ -233,7 +233,7 @@ Our breakthrough adaptive Direct FEM technology gives fast and reliable predicti
 {% for post in site.posts %}
 <div class="post">
   <!-- Wrapper Start -->
-  <section id="intro" style="border: 1px dotted #ddd;">
+<!--  <section id="intro" style="border: 1px dotted #ddd;"> -->
     <div class="container">
       <div class="row">
         <div>
@@ -248,21 +248,10 @@ Our breakthrough adaptive Direct FEM technology gives fast and reliable predicti
         </div><!-- .col-md-7 close -->
       </div>
     </div>
-  </section>
+<!--  </section> -->
 </div>
 {% endfor %}
         
-        
-{% for post in site.posts %}
-<div class="post-area">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-  <p class="post-date">{{ post.date | date_to_long_string }}</p>
-  <p>
-    {{ post.content }}
-  </p>
-</div>
-{% endfor %}
-
       </div>
     </div>
   </div>
