@@ -231,6 +231,29 @@ Our breakthrough adaptive Direct FEM technology gives fast and reliable predicti
         <h2>News</h2>
 
 {% for post in site.posts %}
+<div class="post">
+  <!-- Wrapper Start -->
+  <section id="intro" style="border: 1px dotted #ddd;">
+    <div class="container">
+      <div class="row">
+        <div>
+          <div class="block">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+            <div class="post-info-wrapper">
+              <p class="italic"><span class="bold">{{ post.date | date: "%B %-d, %Y" }}</span></p>
+            </div>
+            <hr />
+            <p>{{ post.content }}</p>
+          </div>
+        </div><!-- .col-md-7 close -->
+      </div>
+    </div>
+  </section>
+</div>
+{% endfor %}
+        
+        
+{% for post in site.posts %}
 <div class="post-area">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
   <p class="post-date">{{ post.date | date_to_long_string }}</p>
@@ -244,3 +267,5 @@ Our breakthrough adaptive Direct FEM technology gives fast and reliable predicti
     </div>
   </div>
 </section>
+
+
