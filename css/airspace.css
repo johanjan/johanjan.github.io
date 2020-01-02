@@ -233,6 +233,14 @@ font header .navbar-default .navbar-nav li a:hover {
     /*width: 50%;*/
     /*height: 50%;*/
 }
+
+
+#news .block {
+  margin: 0 auto;
+  padding-left: 30px;
+  text-align: left;
+}
+
 /*--
 	call-to-action Start
 --*/
