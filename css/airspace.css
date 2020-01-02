@@ -207,8 +207,15 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 60px;
   color: #4A4656;
 }
-#news .news-item h4 {
+#news .news-item h1 {
   padding-top: 20px;
+  padding-left: 20px;
+  margin: 0;
+  color: #666;
+}
+#news .news-item h1 {
+  padding-top: 20px;
+  padding-left: 20px;
   margin: 0;
   color: #666;
 }
