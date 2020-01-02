@@ -223,8 +223,8 @@ font header .navbar-default .navbar-nav li a:hover {
     position: relative;
     top: 0;
     left: 0;
-    width: 50%;
-    height: 50%;
+    /*width: 50%;*/
+    /*height: 50%;*/
 }
 /*--
 	call-to-action Start
