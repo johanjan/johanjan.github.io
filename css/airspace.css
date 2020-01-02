@@ -197,7 +197,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	news Start
 --*/
 #news {
-  text-align: left;
+  text-align: center;
   padding: 90px 0;
 }
 #news .news-item {
