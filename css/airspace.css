@@ -194,6 +194,32 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 1.8;
 }
 /*--
+	news Start
+--*/
+#news {
+  text-align: center;
+  padding: 90px 0;
+}
+#news .news-item {
+  padding-bottom: 30px;
+}
+#news .news-item i {
+  font-size: 60px;
+  color: #4A4656;
+}
+#news .news-item h4 {
+  padding-top: 20px;
+  margin: 0;
+  color: #666;
+}
+#news .news-item p {
+  color: #888;
+  padding-top: 10px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+/*--
 	call-to-action Start
 --*/
 #call-to-action {
