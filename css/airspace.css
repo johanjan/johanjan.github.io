@@ -103,7 +103,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Flyer Start
 --*/
 #flyer {
-  background: url("/img/icarus01.gif") no-repeat;
+  background: url("../../img/icarus01.gif") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
