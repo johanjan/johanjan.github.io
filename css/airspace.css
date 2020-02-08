@@ -101,6 +101,52 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Slider Start
 --*/
+#flyer {
+  background: url("../img/icarus01.gif") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 10% 0%;
+  padding: 80px 0 80px 0;
+  position: relative;
+}
+#flyer:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #8b86a3, #322e40);
+  opacity: 0.0;
+}
+#flyer .block {
+  color: #E3E3E4;
+}
+#flyer .block h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+/*  font-size: 45px; */
+/*  line-height: 60px; */
+  line-height: 1.2em;
+  letter-spacing: 4px;
+/*  padding-bottom: 45px; */
+  font-size: 3em; 
+  padding-bottom: 3em;
+}
+#flyer .block p {
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+
+/*--
+	Slider Start
+--*/
 #slider {
   background: url("../img/icarus01.gif") no-repeat;
   background-size: cover;
